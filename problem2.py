@@ -1,1 +1,5 @@
-
+chicken = int(input("How many pieces of chicken are there? "))
+students = int(input("Insert number of students "))
+pieces_students = (chicken // students)
+pieces_fabroa = (pieces_students % 11)
+print ("Each student will get " + str(pieces_students) + " piece(s) of chicken and Mr. Fabroa gets " + str(pieces_fabroa) + " piece(s) of chicken.")
